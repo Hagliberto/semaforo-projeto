@@ -1,2 +1,27 @@
-build
-. vscode
+# Arquivos de build
+build/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# Arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+
+# Arquivos de configuração do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Arquivos gerados por editores e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de backup
+*~
+*.bak
